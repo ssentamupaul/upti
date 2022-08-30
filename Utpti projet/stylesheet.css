@@ -1,0 +1,181 @@
+.home {
+  background-image: url("img/pexels-tima-miroshnichenko-5717512.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hometext {
+  float: right;
+  transition: transform 4s;
+}
+
+/* .hometext :hover {
+  transform: translate(100px);
+}
+.card-body {
+  background-color: rgb(211, 209, 205);
+} */
+
+.img {
+  height: 30%;
+  width: 100%;
+  transition: 3s;
+  background-size: contain;
+}
+
+.img:hover {
+  /* -ms-transform: scale(1.5); */
+  -webkit-transform: scale(1.5);
+  /* transform: scale(1.5); */
+  cursor: progress;
+}
+
+#txt {
+  background-color: rgb(247, 136, 0);
+}
+
+#txt:hover {
+  background-color: rgb(244, 243, 241);
+}
+
+.navbar-toggler-icon {
+  transition: 3s;
+}
+
+.navbar-toggler-icon:hover {
+  -webkit-transform: scale(1.5);
+  cursor: copy;
+}
+
+.faq {
+  background-color: rgb(223, 210, 185);
+}
+
+.cont {
+  background-color: rgb(223, 210, 185);
+}
+.student {
+  background-color: rgb(223, 210, 185);
+}
+
+.coc {
+  background-color: rgb(223, 210, 185);
+}
+
+.abou {
+  background-color: rgb(223, 210, 185);
+}
+
+.ben {
+  background-color: rgb(223, 210, 185);
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(35, 29, 29, 0.781);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  color: white;
+  transform: translate(-40%, -40%);
+  -ms-transform: translate(-40%, -40%);
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(35, 29, 29, 0.781);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#Bible {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  color: white;
+  transform: translate(-40%, -40%);
+  -ms-transform: translate(-40%, -40%);
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(35, 29, 29, 0.781);
+  z-index: 2;
+  cursor: pointer;
+}
+#design {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  color: white;
+  transform: translate(-40%, -40%);
+  -ms-transform: translate(-40%, -40%);
+}
+
+.topic {
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 10s;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 40px;
+  }
+}
+
+/* .nav1 {
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 10s;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 30px;
+  }
+  from {
+    left: 30px;
+  }
+  to {
+    left: 0px;
+  }
+} */
